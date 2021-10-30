@@ -1,0 +1,14 @@
+{
+  "name": "n315-homework-four",
+  "version": "1.0.0",
+  "description": "Forms and Login for N315 Homework 4, Fall 2021",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server"
+  },
+  "author": "Daniel Todd",
+  "license": "ISC"
+}

@@ -1,0 +1,30 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 40px;
+    p {
+        @include text-styles(15px, 'Lato', normal, italic)
+    }
+}
+.footLinks {
+    width: 49.8vw;
+    display: flex;
+    justify-content: space-evenly;
+    a {
+        @include text-styles(15px, 'Lato', normal, italic);
+        text-decoration: none;
+    }
+}
+.smLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 78px;
+    img {
+        width: 19px;
+        height: 19px;
+    }
+}

@@ -1,0 +1,33 @@
+.createRecipeContent {
+    width: 76.6%;
+    margin: 200px auto;
+    input[type=text] {
+        display: block;
+        width: 100%;
+        border-width: 0 0 3px 0;
+        border-color: black;
+        height: 25px;
+        margin-bottom: 80px;
+        @include text-styles(20px, 'Lato Light');
+    }
+    input:focus {
+        outline: none;
+    }
+    input::placeholder {
+        @include text-styles(20px, 'Lato Light');
+    }
+    h1 {
+       @include text-styles(25px, 'Caveat', bold);
+       margin-bottom: 70px; 
+    }
+    h2 {
+        @include text-styles(20px, 'Lato Black');
+        margin-bottom: 30px;
+    }
+}
+
+.submitRecipeBtn {
+    @include site-btn(422px, 52px, #EFA7A7);
+    @include text-styles;
+    margin: 0 auto;
+}

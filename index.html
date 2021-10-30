@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>N315 | Homework 3 | View/Edit/Delete</title>
+</head>
+<body>
+    <nav>
+        <div class="navLogo">
+            <img src="images/logo.svg" alt="logo">
+        </div>
+        <div class="navHolder">
+            <div class="navBars">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="navLinks">
+                <a id="home" href="#home">Home</a>
+                <a id="browse" href="#browse">Browse</a>
+                <a id="" href="#createrecipe" class="hidden">Create Recipe</a>
+                <a id="yourrecipes" href="#yourrecipes" class="hidden">Your Recipes</a>
+                <div id="loginBtn" class="btnLogin">
+                    <a id="login" href="#login">Login</a>
+                </div>
+                <div id="logoutBtn" class="btnLogin hidden">
+                    <a id="logout" href="#">Logout</a>
+                </div>     
+            </div>
+        </div>
+    </nav>
+    <div id="app"> <!-- Begin App div-->
+    </div> <!-- End App div-->
+    <footer>
+        <p>Copyright © 2019 The Jungle Cook</p>
+        <div class="footLinks">
+            <a href="#" class="foot__loginOnly">Login</a>
+            <a href="#" class="foot__loginOnly hidden">Logout</a>
+            <a href="#">Recipes by Category</a>
+            <a href="#">Privacy and Copyright</a>
+            <a href="#" class="foot__loginOnly hidden">Create Recipe</a>
+            <a href="#" class="foot__loginOnly hidden">Your Recipes</a>
+        </div>
+        <div class="smLinks">
+            <a href="#">
+                <img src="images/facebook.svg" alt="facebook">
+            </a>
+            <a href="#">
+                <img src="images/instagram.svg" alt="instagram">
+            </a>     
+        </div>
+    </footer>
+
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="model/model.js"></script>
+    <script src="app/app.js"></script>
+</body>
+</html>
